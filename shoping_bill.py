@@ -29,7 +29,7 @@ def calculate_discount(total):
         discount_rate = 0.15
     elif 140 < total <= 1200:
         discount_rate = 0.20
-    elif 1200 < total > 1200:
+    elif total > 1200:
         discount_rate = 0.07
     else:
         discount_rate = 0.0  # No discount for totals <= 60
